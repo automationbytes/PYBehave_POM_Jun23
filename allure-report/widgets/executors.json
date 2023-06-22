@@ -1,0 +1,1 @@
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8080/","buildOrder":12,"buildName":"PyBehaveJun23 #12","buildUrl":"http://localhost:8080/job/Python/12/","reportName":"AllureReport","reportUrl":"http://localhost:8080/job/Python/12/allure"}]

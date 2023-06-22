@@ -1,0 +1,6 @@
+.idea
+venv
+.pytest_cache
+main.py
+geckodriver.log
+the user logouts from the site.png

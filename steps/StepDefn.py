@@ -8,7 +8,13 @@ from webdriver_manager.firefox import GeckoDriverManager
 from PageObjects.HomePage import HomePage
 from PageObjects.LoginPage import LoginPage
 
-driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
+
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+
+#driver = webdriver.Firefox(service=FirefoxService(GeckoDriverManager().install()))
 driver.implicitly_wait(30)
 driver.maximize_window()
 hp = HomePage(driver)

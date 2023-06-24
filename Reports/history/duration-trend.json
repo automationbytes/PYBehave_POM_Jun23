@@ -1,1 +1,3 @@
-[{"buildOrder":11,"reportUrl":"http://localhost:8080/job/Python/11/allure","reportName":"AllureReport","data":{"duration":22326}},{"buildOrder":10,"reportUrl":"http://localhost:8080/job/Python/10/allure","reportName":"AllureReport","data":{"duration":14508}},{"buildOrder":9,"reportUrl":"http://localhost:8080/job/Python/9/allure","reportName":"AllureReport","data":{"duration":13043}},{"buildOrder":7,"reportUrl":"http://localhost:8080/job/Python/7/allure","reportName":"AllureReport","data":{"duration":4993}}]
+[ {
+  "data" : { }
+} ]
